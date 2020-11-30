@@ -1,0 +1,23 @@
+body {
+    background-color: #2e3440;
+}
+
+.pulseButton {
+    position: absolute;
+    top: 47%;
+    right: 47%;
+    text-align: center;
+    padding: 12px 24px;
+    color: #e5e9f0;
+    border-radius: 5px;
+    background: #4c566a;
+    box-shadow: 0 0 0 0 RGBA(67, 76, 94, 0.7);
+    animation: peffect 1.72s infinite;
+    transition-timing-function: cubic-bezier(0.66, 0, 0, 1);
+}
+
+@keyframes peffect {
+    to {
+        box-shadow: 0 0 0 30px RGBA(76, 86, 106, 0);
+    }
+}

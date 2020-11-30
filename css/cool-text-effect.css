@@ -1,0 +1,63 @@
+html *
+{
+    font-family: Product Sans !important;
+}
+
+
+.text-container {
+    --duration: 2.5s;
+
+    padding: .8rem 1.6rem;
+    user-select: none;
+    position: relative;
+}
+
+.text-container::before {
+    content: '';
+    display: block;
+
+    height: 100%;
+    width: 0;
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: #434c5e;
+
+    animation: before var(--duration) ease;
+}
+
+.text-container h1 {
+    animation: visibility var(--duration) ease;
+}
+
+@keyframes visibility {
+    from {
+        visibility: hidden;
+    }
+    30% {
+        visibility: hidden;
+    }
+    70% {
+        visibility: hidden;
+    }
+}
+
+@keyframes before {
+    from {
+        width: 0;
+        opacity: 1;
+    }
+    30% {
+        width: 100%;
+    }
+    70% {
+        width: 100%;
+    }
+    to {
+        width: 0;
+        opacity: 1;
+    }
+}
