@@ -1,0 +1,29 @@
+* {
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: #2e3440;
+}
+
+p {
+  color: #e5e9f0;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+}
+
+.back {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;  
+}
+
+.back button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
