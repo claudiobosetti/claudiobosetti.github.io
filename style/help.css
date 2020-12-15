@@ -10,13 +10,14 @@ p {
   color: #e5e9f0;
   text-align: center;
   position: fixed;
-  top: 47%;
+  top: 50%;
 }
 
 .back {
   position: absolute;
-  bottom: 5%;
-  left: 47%;  
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .back button {
