@@ -144,3 +144,18 @@ p {
   overflow: hidden;
   outline: none;
 }
+
+.blog {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.blog button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
